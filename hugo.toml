@@ -1,7 +1,6 @@
 baseURL = 'https://hossaina002.github.io/hossaina-academic-portfolio/'
 locale = 'en-us'
 title = 'Mst. Hossaina Kabir | Academic & Research Portfolio'
-theme = ''
 
 [markup]
   [markup.goldmark]
