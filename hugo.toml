@@ -1,0 +1,68 @@
+﻿baseURL = 'https://hossaina002.github.io/hossaina-academic-portfolio/'
+locale = 'en-us'
+title = 'Mst. Hossaina Kabir | Academic & Research Portfolio'
+theme = ''
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Mst. Hossaina Kabir"
+  degree = "MSc in Computer Science and Engineering"
+  major = "Major: Data Science"
+  institution = "Daffodil International University"
+  tagline = "Data Science researcher interested in machine learning, artificial intelligence, healthcare analytics, and predictive modeling."
+  
+  profile_image = "images/profile.jpg"
+  
+  email = "your.email@example.com"
+  github = "https://github.com/hossaina002"
+  linkedin = "https://linkedin.com/in/yourusername"
+  google_scholar = "https://scholar.google.com"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Education"
+  url = "education/"
+  weight = 3
+
+[[menu.main]]
+  name = "Research"
+  url = "research/"
+  weight = 4
+
+[[menu.main]]
+  name = "Publications"
+  url = "publications/"
+  weight = 5
+
+[[menu.main]]
+  name = "Projects"
+  url = "projects/"
+  weight = 6
+
+[[menu.main]]
+  name = "Skills"
+  url = "skills/"
+  weight = 7
+
+[[menu.main]]
+  name = "Certifications"
+  url = "certifications/"
+  weight = 8
+
+[[menu.main]]
+  name = "Contact"
+  url = "contact/"
+  weight = 9

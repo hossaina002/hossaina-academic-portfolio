@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/certifications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/education/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/research/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hossaina-academic-portfolio/skills/</loc>
+  </url>
+</urlset>

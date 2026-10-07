@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.author }}{{ end }}</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="{{ "" | relURL }}" class="brand-logo">
+                <span class="brand-name">Mst. Hossaina Kabir</span>
+                <span class="brand-sub">Academic Portfolio</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a href="{{ .URL | relURL }}" class="nav-link">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="site-content">

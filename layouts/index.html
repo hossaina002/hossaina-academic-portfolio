@@ -1,0 +1,45 @@
+﻿{{ partial "header.html" . }}
+
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-image-wrapper">
+            <img src="{{ .Site.Params.profile_image | relURL }}" alt="Mst. Hossaina Kabir" class="hero-profile-img">
+        </div>
+        <div class="hero-text">
+            <span class="badge">Research & Academic Portfolio</span>
+            <h1 class="hero-title">{{ .Site.Params.author }}</h1>
+            <p class="hero-degree"><strong>{{ .Site.Params.degree }}</strong> — {{ .Site.Params.major }}</p>
+            <p class="hero-institution">{{ .Site.Params.institution }}</p>
+            
+            <p class="hero-bio">
+                {{ .Site.Params.tagline }}
+            </p>
+
+            <div class="hero-actions">
+                <a href="{{ "research/" | relURL }}" class="btn btn-primary">Explore Research</a>
+                <a href="{{ "projects/" | relURL }}" class="btn btn-outline">View Projects</a>
+                <a href="{{ "publications/" | relURL }}" class="btn btn-outline">View Publications</a>
+                <a href="{{ "contact/" | relURL }}" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-highlights">
+    <div class="highlights-container">
+        <div class="highlight-card">
+            <h3>Primary Focus</h3>
+            <p>Multiclass Prediction of Postpartum Mental Health Conditions utilizing ensemble stacking frameworks.</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Academic Background</h3>
+            <p>BSc & MSc in Computer Science and Engineering from Daffodil International University (BSc GPA: 3.54).</p>
+        </div>
+        <div class="highlight-card">
+            <h3>Specialized Training</h3>
+            <p>Government Machine Learning Course under the EDGE initiative focusing on applied AI/ML methodologies.</p>
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
